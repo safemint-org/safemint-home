@@ -45,6 +45,9 @@ const langData = {
       'how-step4': 'onchain result',
       partners: 'Partners & Investor',
       projects: 'Projects'
+    },
+    explore: {
+      title: 'Explore Certificated Projects'
     }
   },
   zhCN: {

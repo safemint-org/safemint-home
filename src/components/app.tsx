@@ -4,17 +4,18 @@ import Layout from './layout'
 import Home from './home'
 import './app.scss'
 import langData from 'utils/lang-data'
+import Explore from './explore'
 
 const BASE_URL = process.env.NODE_ENV === 'production' ? '/safemint-home' : '/'
 
 const App = () => {
   return (
     <I18nProvider i18n={createI18n(langData, { lang: 'enUS' })}>
-      <BrowserRouter>
+      <BrowserRouter basename={BASE_URL}>
         <Layout>
           <Routes>
-            <Route path={BASE_URL} element={<Home />} />
-            <Route path={`${BASE_URL}/gallery`} element={<div>gallery</div>} />
+            <Route path="/" element={<Home />} />
+            <Route path="/explore" element={<Explore />} />
           </Routes>
         </Layout>
       </BrowserRouter>

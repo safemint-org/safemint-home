@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 interface LayoutProps {
   children: React.ReactElement
 }
@@ -12,8 +14,12 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           </div>
           <div className="text-xl font-semibold md:hidden">Logo</div>
           <div className="ml-3 flex space-x-8 text-lg font-semibold md:space-x-12 lg:space-x-16">
-            <div>Home</div>
-            <div>Explore</div>
+            <div>
+              <Link to="/">Home</Link>
+            </div>
+            <div>
+              <Link to="/explore">Explore</Link>
+            </div>
             <div>En</div>
           </div>
         </div>
