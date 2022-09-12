@@ -18,7 +18,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <Link to="/">Home</Link>
             </div>
             <div>
-              <Link to="/explore">Explore</Link>
+              <Link to="/projects">Explore</Link>
             </div>
             <div>En</div>
           </div>

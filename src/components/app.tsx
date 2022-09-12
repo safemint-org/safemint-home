@@ -4,7 +4,8 @@ import Layout from './layout'
 import Home from './home'
 import './app.scss'
 import langData from 'utils/lang-data'
-import Explore from './explore'
+import Projects from './projects'
+import Apply from './apply'
 
 const BASE_URL = process.env.NODE_ENV === 'production' ? '/safemint-home' : '/'
 
@@ -15,7 +16,8 @@ const App = () => {
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/explore" element={<Explore />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/apply" element={<Apply />} />
           </Routes>
         </Layout>
       </BrowserRouter>

@@ -48,6 +48,25 @@ const langData = {
     },
     explore: {
       title: 'Explore Certificated Projects'
+    },
+    apply: {
+      title: 'Apply',
+      project_info: 'Project Info',
+      logo: 'Logo',
+      logo_desc: 'Only supports jpeg, png formats. ratio : 1:1 ',
+      project_banner: 'Project Banner',
+      project_banner_desc: 'Supports jpeg, png formats. 1400px * 400px',
+      project_name: 'Project Name',
+      project_description: 'Project Description',
+      operating_chain: 'Operating Chain',
+      contract_address: 'Apply',
+      contract_info: 'Contract Info',
+      contract_info_desc: 'Email, twitter, telegram, etc.',
+      account_info: 'Account Info',
+      total_supply: 'Total Supply',
+      max_amount: 'Max Amount per Address',
+      start_time: 'Start Time',
+      preview: 'Preview'
     }
   },
   zhCN: {
