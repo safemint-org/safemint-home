@@ -31,7 +31,7 @@ const Home: React.FC<Record<string, never>> = () => {
               </button>
               <button
                 type="button"
-                className="ml-2 inline-block rounded bg-green px-6 py-2.5 font-medium leading-tight shadow-md transition duration-150 ease-in-out hover:bg-emerald-600 hover:shadow-lg focus:bg-emerald-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-emerald-700 active:shadow-lg"
+                className="bg-theme-green ml-2 inline-block rounded px-6 py-2.5 font-medium leading-tight shadow-md transition duration-150 ease-in-out hover:bg-emerald-600 hover:shadow-lg focus:bg-emerald-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-emerald-700 active:shadow-lg"
               >
                 {t('home.api')}
               </button>

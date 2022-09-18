@@ -59,7 +59,7 @@ const langData = {
       project_name: 'Project Name',
       project_description: 'Project Description',
       operating_chain: 'Operating Chain',
-      contract_address: 'Apply',
+      contract_address: 'Contact Address',
       contract_info: 'Contract Info',
       contract_info_desc: 'Email, twitter, telegram, etc.',
       account_info: 'Account Info',

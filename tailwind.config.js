@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        green: '#4ECB71',
+        'theme-green': '#4ECB71',
         'light-green': '#64E4A6'
       }
     },
@@ -37,5 +37,10 @@ module.exports = {
       '5xl': '4rem' // 64px
     }
   },
-  plugins: [require('@tailwindcss/line-clamp')]
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+    require('@tailwindcss/forms')({
+      strategy: 'base' // only generate global styles
+    })
+  ]
 }
